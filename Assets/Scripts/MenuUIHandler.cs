@@ -22,7 +22,7 @@ public class MenuUIHandler : MonoBehaviour
             bestScoreText.text = $"Best Score: {RecordManager.Instance.PlayerName} - {RecordManager.Instance.BestScore}";
         }
 
-        Debug.Log(Application.persistentDataPath);
+        // Debug.Log(Application.persistentDataPath);
     }
 
     // Update is called once per frame
